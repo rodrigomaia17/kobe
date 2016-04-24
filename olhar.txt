@@ -1,0 +1,8 @@
+playoff
+tempo restante
+ranking do time quando ele jogou
+quantos pontos no jogo
+percentual de acertos
+ano bom ou nao?
+playoff ou nao?
+diferenca de pontos na hora do jogo
