@@ -63,4 +63,5 @@ target/
 .python-version
 __pycache__/
 *.zip
-
+*.csv
+sample_submission.csv

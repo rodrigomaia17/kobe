@@ -5,8 +5,14 @@ import pandas as pd
 def clean(file):
     df = pd.read_csv(file)
 
-    map_to_number(df, 'season')
     map_to_number(df, 'action_type')
+    map_to_number(df, 'combined_shot_type')
+    map_to_number(df, 'season')
+    map_to_number(df, 'shot_zone_area')
+    map_to_number(df, 'shot_zone_basic')
+    map_to_number(df, 'shot_zone_range')
+    map_to_number(df, 'opponent')
+    
 
     df['is_3pt'] = df.shot_type.map({'3PT Field Goal':1,'2PT Field Goal':0})
 
